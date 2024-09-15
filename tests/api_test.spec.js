@@ -14,7 +14,7 @@ test('API Get Request', async function ({ request }) {
     expect(response.status()).toBe(200);
     const responseText = await response.text();
     expect(responseText).toContain("South Africa");
-    console.log(await response.json());
+    console.log('Show response on logs', await response.json());
 })
 
 
