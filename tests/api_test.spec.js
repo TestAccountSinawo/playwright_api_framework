@@ -4,7 +4,7 @@ const CAPITAL = 'pretoria';
 const sasl = 'South African Sign Language';
 const baseURL = 'https://restcountries.com/v3.1';
 
-test('API Get Request', async function ({ request }) {
+test('API Get country using its capital Request', async function ({ request }) {
 
     // Create a context that will issue http requests.
     // Act
